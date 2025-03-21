@@ -1,0 +1,24 @@
+#handDisplay {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.red {
+    background-color: #ff4d4d;
+    color: white;
+}
+.blue {
+    background-color: #4d79ff;
+    color: white;
+}
+.green {
+    background-color: #4dff4d;
+    color: white;
+}
+.yellow {
+    background-color: #ffff4d;
+    color: black;
+}
