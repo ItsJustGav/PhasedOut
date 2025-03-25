@@ -1,24 +1,57 @@
+body {
+    text-align: center;
+}
+
 #handDisplay {
     width: 80px;
     height: 80px;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 25px;
     cursor: pointer;
+    display: flex;
+    list-style: none;
+    padding: 10px;
 }
 .red {
     background-color: #ff4d4d;
     color: white;
+    width: 60px;
+    height: 120px;
+    margin: 10px;
 }
 .blue {
     background-color: #4d79ff;
     color: white;
+    width: 60px;
+    height: 120px;
+    margin: 10px;
 }
 .green {
     background-color: #4dff4d;
-    color: white;
+    color: black;
+    width: 60px; 
+    height: 120px;
+    margin: 10px;
 }
 .yellow {
     background-color: #ffff4d;
     color: black;
+    width: 60px;
+    height: 120px; 
+    margin: 10px;
+}
+
+@keyframes slideInCenter {
+    from {
+        transform: translateX(var(--direction));
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.card-slide-in {
+    animation: slideInCenter 0.5s ease;
 }
